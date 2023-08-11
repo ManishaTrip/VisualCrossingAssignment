@@ -32,9 +32,9 @@ public class APITest {
         response.then().statusCode(200);
 
         // Verify that the response contains the correct city name
-        response.then().body("address.city", equalTo(city));
+        response.then().body("address", equalTo(city));
 
         // Print the response for debugging
-        response.prettyPrint();
+        response.body().prettyPrint();
     }
 }

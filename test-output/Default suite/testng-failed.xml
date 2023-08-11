@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.assignment.tests.APITest">
+      <class name="com.assignment.tests.VisualCrossingAPITest">
         <methods>
           <include name="setUp"/>
-          <include name="testWeatherDataForCity"/>
+          <include name="statusCodeVerification"/>
         </methods>
-      </class> <!-- com.assignment.tests.APITest -->
+      </class> <!-- com.assignment.tests.VisualCrossingAPITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
